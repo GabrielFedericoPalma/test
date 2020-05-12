@@ -1,0 +1,101 @@
+.content-box-side{
+    height: 200px;
+}
+img.multichannel{
+    max-width: 44%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top:0;
+}
+#html5vid{
+    overflow: visible;
+}
+#certificados{
+    width: 200px;
+    border: 1px solid #c2c2c2;
+    padding: 2%;
+}
+#certificados span{
+    font-size: 14px;
+}
+#submit_msj{
+    display: none;
+    color:#00891c;
+}
+@media (max-width: 1024px) {
+    #certificados{
+        margin: auto;
+    }
+}
+@media (max-width: 900px) {
+    .highlight-section{
+        margin-top:45px; 
+    }
+}
+@media (max-width: 700px) {
+    .highlight-section{
+        margin-top:50px; 
+    }
+}
+@media (max-width: 620px) {
+    .highlight-section{
+        margin-top:100px; 
+    }
+}
+@media (max-width: 499px) {
+    .highlight-section{
+        margin-top:0px; 
+    }
+}
+@media (max-width: 400px) {
+    .highlight-section{
+        margin-top:60px; 
+    }
+}
+@media (max-width: 338px) {
+    #html5vid{
+        overflow: hidden;
+    }
+    #certificados{
+        display: none;
+    }
+    .highlight-section{
+        margin-top:0px; 
+    }
+}
+
+/*POLITICA COOKIES*/
+#cajacookies{
+    width: 100%;
+    height: auto;
+    background: rgba(0,0,0,0.8);
+    color: #fff;
+    font-size:14px;
+    padding:2%;
+    position: fixed;
+    bottom: 0;
+    z-index: 9999999;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cajacookies button{
+    padding: 5%;
+    background:rgba(9, 138, 68, 1);
+    font-weight: bold;
+}
+#cajacookies button:hover{
+    background: rgba(9, 138, 68, 0.8);
+}
+@media (max-width: 992px) { 
+    #cajacookies{
+        display: block;
+    } 
+    #cajacookies button{
+        padding:2%;
+        margin-top:5%;
+        margin-bottom:2%;
+    }
+ }
+/*END POLITICA COOKIES*/
